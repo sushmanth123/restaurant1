@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+
+        <!--jQuery library--> 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+        <!--Latest compiled and minified JavaScript--> 
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>LUXURY RESTAURENT</title>
+        <style>
+            .border{
+                border:2px solid grey;
+                padding:20px;
+                margin:10px;
+                background-color:black;
+            }
+            .image{
+                background-image:url("car2.jpg");
+                background-size:cover;
+                -webkit-background-size:cover;
+    -o-background-size:cover;
+    -moz-background-size:cover; 
+    height:700px;
+                background-position:center;
+            }
+        </style>
+        </head>
+    <body>
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>                        
+                    </button>
+                    <a class="navbar-brand" href="index.html">LUXURY HOTEL</a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ol class="nav navbar-nav navbar-right">
+                        <li><a href="park.html"><span class="glyphicon glyphicon-user"></span>parking page</a></li>
+                        <li><a href=""> contact</a></li>
+                        <li><a href=""> about</a></li>
+                        <li><a href=""> room</a></li>
+                    </ol>
+                </div>
+            </div>
+        </nav>
+        <div class="image">
+        <br><br><br><br>
+        <center>
+            <h1 style="color:white;">parking lot</h1>
+        </center>
+        <center>
+            <p1 style="font-size:20px; font-family:cursive; color:white;">Add car to lot</p1>
+        </center>
+        <div class="container">
+        <form action="travel.html" class="border">
+            
+            <p>
+        <label for="o">owner:</label>
+        <br>
+        <input type="text" id="o" placeholder="name">
+    </p>
+    <p>
+        <label for="c">car:</label>
+        <br>
+        <input type="text" id="c" placeholder="car">
+    </p>
+    <p>
+        <label for="p">lisence plate:</label>
+        <br>
+        <input type="text" id="p" placeholder="plate no.">
+    </p>
+    <p>
+    <label for="en">entry date:</label>
+    <input type="date" id="en">
+    <label for="en">entry date:</label>
+    <input type="date" id="en">
+    </p>
+   <a href="travel.html"> <input type="button" value="Add car" class="btn-primary"></a>
+</fieldset>
+</form>
+</div>
+</div>
+</body>
+</html>
